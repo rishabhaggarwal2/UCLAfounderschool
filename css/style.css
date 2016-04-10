@@ -166,6 +166,10 @@ a {
     @media only screen and (max-width: 768px) {
       #about .content {
         width: 300px; } }
+  #about .club-name {
+    text-decoration: underline; }
+  #about .club-name:hover {
+    color: #555; }
 
 #about:before {
   content: "";
@@ -348,6 +352,11 @@ a {
     background: #14A7E3;
     color: #fff;
     border-color: #0497D3; }
+  #sponsors .sponsorship-hint {
+    color: #777;
+    position: relative;
+    font-size: 14px;
+    top: 60px; }
 
 .seperator {
   height: 20px;
@@ -380,7 +389,7 @@ a {
 	-webkit-transform: rotate(2deg);
 }*/
 #schedule {
-  padding: 40px 0;
+  padding: 40px 0 70px 0;
   position: relative;
   background: #002D47;
   color: #fff; }
