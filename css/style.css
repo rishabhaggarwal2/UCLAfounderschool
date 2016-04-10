@@ -24,11 +24,11 @@ a {
 
 #splash {
   background: #002D47;
-  background-image: url("../img/splashBack.png");
+  background-image: url('../img/splashBack.png');
   /* fallback */
-  background-image: url("../img/splashBack.png"), linear-gradient(#195D85, #002D47);
+  background-image: url('../img/splashBack.png'), linear-gradient(#195D85, #002D47);
   /* W3C */
-  background-image: url("../img/splashBack.png"), -webkit-linear-gradient(#195D85, #002D47);
+  background-image: url('../img/splashBack.png'), -webkit-linear-gradient(#195D85, #002D47);
   /* W3C */
   background-size: cover;
   color: #fff;
@@ -74,7 +74,7 @@ a {
       content: "";
       display: block;
       position: absolute;
-      background: url("../img/RoundedPNG.png") center;
+      background: url('../img/RoundedPNG.png') center;
       background-size: contain;
       background-repeat: no-repeat;
       height: 60px;
@@ -129,7 +129,7 @@ a {
     content: "";
     display: block;
     position: absolute;
-    background: url("../img/RoundedPNG.png") center;
+    background: url('../img/RoundedPNG.png') center;
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
@@ -163,7 +163,7 @@ a {
   content: "";
   width: 100%;
   height: 80px;
-  background: url("../img/slant.svg");
+  background: url('../img/slant.svg');
   background-size: cover;
   position: absolute;
   display: block;
@@ -173,7 +173,7 @@ a {
   content: "";
   width: 100%;
   height: 100px;
-  background: url("../img/slant2.svg");
+  background: url('../img/slant2.svg');
   background-size: cover;
   position: absolute;
   display: block;
@@ -198,7 +198,7 @@ a {
       display: table-cell;
       width: 60%;
       border: 1px solid #002D47;
-      background: url("../img/headshots/dude.png") center;
+      background: url('../img/headshots/dude.png') center;
       background-size: contain;
       background-repeat: no-repeat; }
       @media only screen and (max-width: 768px) {
@@ -269,27 +269,27 @@ a {
       #speakers .speakers .speaker .title {
         font-size: 12px; }
     #speakers .speakers .name1 {
-      background: url("../img/headshots/mh.jpg"); }
+      background: url('../img/headshots/mh.jpg'); }
     #speakers .speakers .name2 {
-      background: url("../img/headshots/sl.jpg"); }
+      background: url('../img/headshots/sl.jpg'); }
     #speakers .speakers .name3 {
-      background: url("../img/headshots/kh.jpg"); }
+      background: url('../img/headshots/kh.jpg'); }
     #speakers .speakers .name4 {
-      background: url("../img/headshots/ma.jpg"); }
+      background: url('../img/headshots/ma.jpg'); }
     #speakers .speakers .name5 {
-      background: url("../img/headshots/tr.jpg"); }
+      background: url('../img/headshots/tr.jpg'); }
     #speakers .speakers .name6 {
-      background: url("../img/headshots/sf.jpg"); }
+      background: url('../img/headshots/sf.jpg'); }
     #speakers .speakers .name7 {
-      background: url("../img/headshots/pb.jpg"); }
+      background: url('../img/headshots/pb.jpg'); }
     #speakers .speakers .name8 {
-      background: url("../img/headshots/fb.jpg"); }
+      background: url('../img/headshots/fb.jpg'); }
     #speakers .speakers .name9 {
-      background: url("../img/headshots/as.jpg"); }
+      background: url('../img/headshots/as.jpg'); }
     #speakers .speakers .name10 {
-      background: url("../img/headshots/dl.jpg"); }
+      background: url('../img/headshots/dl.jpg'); }
     #speakers .speakers .name11 {
-      background: url("../img/headshots/cb.jpg"); }
+      background: url('../img/headshots/cb.jpg'); }
 
 #sponsors {
   text-align: center;
@@ -354,5 +354,19 @@ a {
   position: relative;
   background: #002D47;
   color: #fff; }
-
-/*# sourceMappingURL=style.css.map */
+  #schedule table {
+    max-width: 500px;
+    margin: auto;
+    left: 60px;
+    position: relative; }
+    #schedule table tr td {
+      padding: 5px 20px; }
+    #schedule table tr td:first-child {
+      border-right: 2px solid #fff;
+      text-align: right;
+      position: relative; }
+    #schedule table tr td:first-child:after {
+      content: "--";
+      position: absolute;
+      right: -7px;
+      font-weight: 500; }
