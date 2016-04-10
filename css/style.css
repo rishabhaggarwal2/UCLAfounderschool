@@ -2,7 +2,9 @@ body, html {
   font-family: Lato;
   font-weight: 300;
   line-height: 1.5;
-  font-size: 18px; }
+  font-size: 18px;
+  width: 100%;
+  overflow-x: hidden; }
 
 h1, h2, h3, h4, h5, h6, a {
   font-family: Montserrat;
@@ -338,6 +340,14 @@ a {
     background: #14A7E3;
     color: #fff;
     border-color: #0497D3; }
+
+.seperator {
+  height: 20px;
+  width: 120%;
+  background-color: #FC5050;
+  z-index: 100;
+  display: block;
+  position: relative; }
 
 #schedule {
   padding: 80px 0;

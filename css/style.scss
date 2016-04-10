@@ -10,6 +10,8 @@ body,html{
 	font-weight: 300;
 	line-height: 1.5;
 	font-size: 18px;
+	width: 100%;
+	overflow-x: hidden;
 }
 
 
@@ -420,6 +422,16 @@ a{
 	    color: #fff;
 	    border-color: #0497D3;
 	}
+}
+
+.seperator {
+	height:20px;
+	width:120%;
+	background-color: $pink;
+	z-index: 100;
+	display: block;
+	position: relative;
+
 }
 
 #schedule {
