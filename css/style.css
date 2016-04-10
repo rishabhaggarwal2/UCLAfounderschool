@@ -22,11 +22,11 @@ a {
 
 #splash {
   background: #002D47;
-  background-image: url('../img/splashBack.png');
+  background-image: url("../img/splashBack.png");
   /* fallback */
-  background-image: url('../img/splashBack.png'), linear-gradient(#195D85, #002D47);
+  background-image: url("../img/splashBack.png"), linear-gradient(#195D85, #002D47);
   /* W3C */
-  background-image: url('../img/splashBack.png'), -webkit-linear-gradient(#195D85, #002D47);
+  background-image: url("../img/splashBack.png"), -webkit-linear-gradient(#195D85, #002D47);
   /* W3C */
   background-size: cover;
   color: #fff;
@@ -34,7 +34,21 @@ a {
   #splash nav {
     display: block;
     width: 100%;
-    height: 60px; }
+    height: 60px;
+    padding: 20px 2px; }
+    #splash nav ol {
+      list-style-type: none;
+      position: relative;
+      float: right;
+      font-size: 15px; }
+      #splash nav ol li {
+        display: inline;
+        padding: 2px 12px; }
+      #splash nav ol a {
+        dislay: block; }
+      #splash nav ol a:hover {
+        color: #eee;
+        text-decoration: none; }
   #splash .splashBlock {
     margin-top: 80px;
     position: relative;
@@ -58,7 +72,7 @@ a {
       content: "";
       display: block;
       position: absolute;
-      background: url('../img/RoundedPNG.png') center;
+      background: url("../img/RoundedPNG.png") center;
       background-size: contain;
       background-repeat: no-repeat;
       height: 60px;
@@ -88,7 +102,8 @@ a {
       position: relative;
       top: -60px;
       text-transform: uppercase;
-      letter-spacing: 1.71px; }
+      letter-spacing: 1.71px;
+      z-index: 9; }
       @media only screen and (max-width: 768px) {
         #splash .splashBlock .date {
           top: 0px; } }
@@ -112,13 +127,21 @@ a {
     content: "";
     display: block;
     position: absolute;
-    background: url('../img/RoundedPNG.png') center;
+    background: url("../img/RoundedPNG.png") center;
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
     width: 200px;
     bottom: -60px;
     right: 0px; }
+  #splash .register-btn {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer; }
+  #splash .register-btn:hover {
+    background: #ddd;
+    transition: all 0.8s; }
 
 #about {
   padding: 0px 0px 60px 0;
@@ -135,7 +158,7 @@ a {
   content: "";
   width: 100%;
   height: 80px;
-  background: url('../img/slant.svg');
+  background: url("../img/slant.svg");
   background-size: cover;
   position: absolute;
   display: block;
@@ -152,7 +175,7 @@ a {
     #speakers .keynote .keynoteImg {
       display: table-cell;
       width: 60%;
-      background: url('../img/dude.png');
+      background: url("../img/dude.png");
       background-size: contain; }
     #speakers .keynote .keynoteDesc {
       text-align: center;
@@ -175,3 +198,5 @@ a {
         background: #FC5050;
         display: inline-block;
         font-size: 2.5em; }
+
+/*# sourceMappingURL=style.css.map */
