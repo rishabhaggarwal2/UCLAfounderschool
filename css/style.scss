@@ -5,4 +5,23 @@ $lightBlue:#0072A1;
 $white:#f3f3f3;
 $grey:#333;
 
+body,html{
+	font-family: Lato;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: Montserrat;
+	font-weight: 300;
+	line-height: 1;
+}
+
+#splash{
+	background:url('img/splashBack.png') linear-gradient(#195D85, $blue) $blue;
+	background:url('../img/splashBack.png') $blue;
+	background-size: cover;
+	min-height: 600px;
+}
 
