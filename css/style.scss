@@ -122,6 +122,8 @@ a{
 		}
 		.signup{
 			margin-top: 40px;
+			position: relative;
+			z-index: 10;
 			a{
 				color:#fff;
 				padding:20px 40px;
@@ -155,6 +157,7 @@ a{
 		.sponsorships{
 			position:relative;
 			top:-100px;
+			z-index: 10;
 			@media only screen and (max-width: 768px) {
 			    top:0px;
 			}
@@ -184,8 +187,9 @@ a{
 	}
 
 	.register-btn:hover {
-	    background: #ddd;
-	    transition: all 0.8s
+	    background: $lightBlue;
+	    border-color: #0497D3;
+	    transition: all 0.8s;
 	}
 }
 
@@ -465,3 +469,40 @@ a{
 	}
 }
 
+footer {
+	padding: 20px;
+	height: 120px;
+	width: 100%;
+	background-color: #004d80;
+	font-size: 16px;
+	color: #fff;
+
+	.ucla-logo {
+		width:90px;
+		height:90px;
+	}
+
+	a:hover {
+		text-decoration: underline;
+		color: #ddd;
+	}
+
+	.hosts {
+		a:hover{
+			color:#fff;
+		}
+	}
+
+	.last-line {
+		position: relative;
+		top:8px;
+		color: #fff;
+		font-size: 13px;
+		margin: auto;
+		text-align: center;
+	}
+
+	.social-media a{
+		margin: 0 13px;
+	}
+}

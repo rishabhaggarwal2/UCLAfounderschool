@@ -24,11 +24,11 @@ a {
 
 #splash {
   background: #002D47;
-  background-image: url('../img/splashBack.png');
+  background-image: url("../img/splashBack.png");
   /* fallback */
-  background-image: url('../img/splashBack.png'), linear-gradient(#195D85, #002D47);
+  background-image: url("../img/splashBack.png"), linear-gradient(#195D85, #002D47);
   /* W3C */
-  background-image: url('../img/splashBack.png'), -webkit-linear-gradient(#195D85, #002D47);
+  background-image: url("../img/splashBack.png"), -webkit-linear-gradient(#195D85, #002D47);
   /* W3C */
   background-size: cover;
   color: #fff;
@@ -74,7 +74,7 @@ a {
       content: "";
       display: block;
       position: absolute;
-      background: url('../img/RoundedPNG.png') center;
+      background: url("../img/RoundedPNG.png") center;
       background-size: contain;
       background-repeat: no-repeat;
       height: 60px;
@@ -89,7 +89,9 @@ a {
         #splash .splashBlock .title h1 {
           font-size: 54px; } }
     #splash .splashBlock .signup {
-      margin-top: 40px; }
+      margin-top: 40px;
+      position: relative;
+      z-index: 10; }
       #splash .splashBlock .signup a {
         color: #fff;
         padding: 20px 40px;
@@ -118,7 +120,8 @@ a {
             font-size: 16px; } }
     #splash .splashBlock .sponsorships {
       position: relative;
-      top: -100px; }
+      top: -100px;
+      z-index: 10; }
       @media only screen and (max-width: 768px) {
         #splash .splashBlock .sponsorships {
           top: 0px; } }
@@ -129,7 +132,7 @@ a {
     content: "";
     display: block;
     position: absolute;
-    background: url('../img/RoundedPNG.png') center;
+    background: url("../img/RoundedPNG.png") center;
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;
@@ -142,7 +145,8 @@ a {
     transition-duration: 0.4s;
     cursor: pointer; }
   #splash .register-btn:hover {
-    background: #ddd;
+    background: #14A7E3;
+    border-color: #0497D3;
     transition: all 0.8s; }
 
 #about {
@@ -163,7 +167,7 @@ a {
   content: "";
   width: 100%;
   height: 80px;
-  background: url('../img/slant.svg');
+  background: url("../img/slant.svg");
   background-size: cover;
   position: absolute;
   display: block;
@@ -173,7 +177,7 @@ a {
   content: "";
   width: 100%;
   height: 100px;
-  background: url('../img/slant2.svg');
+  background: url("../img/slant2.svg");
   background-size: cover;
   position: absolute;
   display: block;
@@ -198,7 +202,7 @@ a {
       display: table-cell;
       width: 60%;
       border: 1px solid #002D47;
-      background: url('../img/headshots/dude.png') center;
+      background: url("../img/headshots/dude.png") center;
       background-size: contain;
       background-repeat: no-repeat; }
       @media only screen and (max-width: 768px) {
@@ -269,27 +273,27 @@ a {
       #speakers .speakers .speaker .title {
         font-size: 12px; }
     #speakers .speakers .name1 {
-      background: url('../img/headshots/mh.jpg'); }
+      background: url("../img/headshots/mh.jpg"); }
     #speakers .speakers .name2 {
-      background: url('../img/headshots/sl.jpg'); }
+      background: url("../img/headshots/sl.jpg"); }
     #speakers .speakers .name3 {
-      background: url('../img/headshots/kh.jpg'); }
+      background: url("../img/headshots/kh.jpg"); }
     #speakers .speakers .name4 {
-      background: url('../img/headshots/ma.jpg'); }
+      background: url("../img/headshots/ma.jpg"); }
     #speakers .speakers .name5 {
-      background: url('../img/headshots/tr.jpg'); }
+      background: url("../img/headshots/tr.jpg"); }
     #speakers .speakers .name6 {
-      background: url('../img/headshots/sf.jpg'); }
+      background: url("../img/headshots/sf.jpg"); }
     #speakers .speakers .name7 {
-      background: url('../img/headshots/pb.jpg'); }
+      background: url("../img/headshots/pb.jpg"); }
     #speakers .speakers .name8 {
-      background: url('../img/headshots/fb.jpg'); }
+      background: url("../img/headshots/fb.jpg"); }
     #speakers .speakers .name9 {
-      background: url('../img/headshots/as.jpg'); }
+      background: url("../img/headshots/as.jpg"); }
     #speakers .speakers .name10 {
-      background: url('../img/headshots/dl.jpg'); }
+      background: url("../img/headshots/dl.jpg"); }
     #speakers .speakers .name11 {
-      background: url('../img/headshots/cb.jpg'); }
+      background: url("../img/headshots/cb.jpg"); }
 
 #sponsors {
   text-align: center;
@@ -370,3 +374,30 @@ a {
       position: absolute;
       right: -7px;
       font-weight: 500; }
+
+footer {
+  padding: 20px;
+  height: 120px;
+  width: 100%;
+  background-color: #004d80;
+  font-size: 16px;
+  color: #fff; }
+  footer .ucla-logo {
+    width: 90px;
+    height: 90px; }
+  footer a:hover {
+    text-decoration: underline;
+    color: #ddd; }
+  footer .hosts a:hover {
+    color: #fff; }
+  footer .last-line {
+    position: relative;
+    top: 8px;
+    color: #fff;
+    font-size: 13px;
+    margin: auto;
+    text-align: center; }
+  footer .social-media a {
+    margin: 0 13px; }
+
+/*# sourceMappingURL=style.css.map */
