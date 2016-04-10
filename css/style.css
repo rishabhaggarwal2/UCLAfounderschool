@@ -1,13 +1,21 @@
 body, html {
   font-family: Lato;
   font-weight: 300;
+<<<<<<< HEAD
   line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 {
+=======
+  line-height: 1.5;
+  font-size: 18px; }
+
+h1, h2, h3, h4, h5, h6, a {
+>>>>>>> 300fe5d4594967db3f3b490eb29fa4202ecd01d0
   font-family: Montserrat;
   font-weight: 300;
   line-height: 1; }
 
+<<<<<<< HEAD
 .section-title {
   text-align: center;
   margin: 10px 0px; }
@@ -29,3 +37,111 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto; }
 
 /*# sourceMappingURL=style.css.map */
+=======
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.container {
+  max-width: 1024px; }
+
+#splash {
+  background: #002D47;
+  background-image: url('../img/splashBack.png');
+  /* fallback */
+  background-image: url('../img/splashBack.png'), linear-gradient(#195D85, #002D47);
+  /* W3C */
+  background-image: url('../img/splashBack.png'), -webkit-linear-gradient(#195D85, #002D47);
+  /* W3C */
+  background-size: cover;
+  color: #fff;
+  overflow: hidden; }
+  #splash nav {
+    display: block;
+    width: 100%;
+    height: 60px; }
+  #splash .splashBlock {
+    margin-top: 80px;
+    position: relative;
+    padding-bottom: 60px; }
+    @media only screen and (max-width: 768px) {
+      #splash .splashBlock {
+        padding-bottom: 100px; } }
+    #splash .splashBlock .tagline {
+      position: relative;
+      text-transform: uppercase; }
+      #splash .splashBlock .tagline h4 {
+        font-size: 28px; }
+        @media only screen and (max-width: 768px) {
+          #splash .splashBlock .tagline h4 {
+            font-size: 16px; } }
+      #splash .splashBlock .tagline span {
+        color: #000;
+        background: #FFF300;
+        padding: 10px; }
+    #splash .splashBlock .tagline:before {
+      content: "";
+      display: block;
+      position: absolute;
+      background: url('../img/RoundedPNG.png') center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 60px;
+      width: 60px;
+      top: -20px;
+      left: -20px; }
+    #splash .splashBlock .title h1 {
+      font-size: 72px;
+      color: #FC5050;
+      line-height: 1.2; }
+      @media only screen and (max-width: 768px) {
+        #splash .splashBlock .title h1 {
+          font-size: 54px; } }
+    #splash .splashBlock .signup {
+      margin-top: 40px; }
+      #splash .splashBlock .signup a {
+        color: #fff;
+        padding: 20px 40px;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 2px solid #fff; }
+        @media only screen and (max-width: 768px) {
+          #splash .splashBlock .signup a {
+            padding: 15px 30px; } }
+    #splash .splashBlock .date {
+      text-align: right;
+      position: relative;
+      top: -60px;
+      text-transform: uppercase;
+      letter-spacing: 1.71px; }
+      @media only screen and (max-width: 768px) {
+        #splash .splashBlock .date {
+          top: 0px; } }
+      #splash .splashBlock .date h4 {
+        font-size: 28px;
+        text-decoration: underline;
+        line-height: 1.5; }
+        @media only screen and (max-width: 768px) {
+          #splash .splashBlock .date h4 {
+            font-size: 16px; } }
+    #splash .splashBlock .sponsorships {
+      position: relative;
+      top: -100px; }
+      @media only screen and (max-width: 768px) {
+        #splash .splashBlock .sponsorships {
+          top: 0px; } }
+      #splash .splashBlock .sponsorships a {
+        color: #FFF300;
+        text-decoration: underline; }
+  #splash .splashBlock:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url('../img/RoundedPNG.png') center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    bottom: -120px;
+    right: 0px; }
+>>>>>>> 300fe5d4594967db3f3b490eb29fa4202ecd01d0
