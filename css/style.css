@@ -153,6 +153,9 @@ a {
     width: 600px;
     text-align: center;
     margin: auto; }
+    @media only screen and (max-width: 768px) {
+      #about .content {
+        width: 300px; } }
 
 #about:before {
   content: "";
@@ -286,37 +289,58 @@ a {
     #speakers .speakers .name11 {
       background: url('../img/headshots/cb.jpg'); }
 
-#sponsors h1 {
-  color: #14A7E3; }
+#sponsors {
+  text-align: center;
+  margin: 60px 10px 130px 10px; }
+  #sponsors h1 {
+    color: #14A7E3; }
+  #sponsors .sponsorHeading {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 20px;
+    position: relative; }
+  #sponsors .sponsorHeading:before {
+    content: "";
+    width: 15%;
+    position: absolute;
+    border-top: 1px solid #ccc;
+    height: 10px;
+    top: 8px;
+    left: 29%; }
+    @media only screen and (max-width: 768px) {
+      #sponsors .sponsorHeading:before {
+        width: 30%; } }
+  #sponsors .sponsorHeading:after {
+    content: "";
+    width: 15%;
+    position: absolute;
+    border-top: 1px solid #ccc;
+    height: 10px;
+    top: 8px;
+    right: 29%; }
+    @media only screen and (max-width: 768px) {
+      #sponsors .sponsorHeading:after {
+        width: 30%; } }
+  #sponsors #sponsor-btn {
+    position: relative;
+    top: 30px;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #777;
+    color: #333;
+    cursor: pointer; }
+  #sponsors #sponsor-btn:hover {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    background: #14A7E3;
+    color: #fff;
+    border-color: #0497D3; }
 
-.sponsorHeading {
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 16px;
-  margin-bottom: 20px;
+#schedule {
+  padding: 80px 0;
   position: relative;
-  display: none; }
-
-.sponsorHeading:before {
-  content: "";
-  width: 44%;
-  position: absolute;
-  border-top: 1px solid #ccc;
-  height: 10px;
-  top: 8px;
-  left: 0; }
-  @media only screen and (max-width: 768px) {
-    .sponsorHeading:before {
-      width: 30%; } }
-
-.sponsorHeading:after {
-  content: "";
-  width: 44%;
-  position: absolute;
-  border-top: 1px solid #ccc;
-  height: 10px;
-  top: 8px;
-  right: 0; }
-  @media only screen and (max-width: 768px) {
-    .sponsorHeading:after {
-      width: 30%; } }
+  background: #002D47;
+  color: #fff; }
