@@ -171,17 +171,34 @@ a {
   color: #fff; }
   #speakers .keynote {
     height: 300px;
+    width: 100%;
     display: table; }
+    @media only screen and (max-width: 768px) {
+      #speakers .keynote {
+        width: 100%;
+        display: block;
+        height: auto;
+        padding-bottom: 40px; } }
     #speakers .keynote .keynoteImg {
       display: table-cell;
       width: 60%;
-      background: url("../img/dude.png");
-      background-size: contain; }
+      background: url("../img/headshots/dude.png") center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+      @media only screen and (max-width: 768px) {
+        #speakers .keynote .keynoteImg {
+          width: 100%;
+          display: block;
+          height: 200px; } }
     #speakers .keynote .keynoteDesc {
       text-align: center;
       display: table-cell;
       width: 40%;
       vertical-align: middle; }
+      @media only screen and (max-width: 768px) {
+        #speakers .keynote .keynoteDesc {
+          width: 100%;
+          display: block; } }
       #speakers .keynote .keynoteDesc h4 {
         text-transform: uppercase;
         line-height: 1;
@@ -197,6 +214,64 @@ a {
         padding: 10px 20px;
         background: #FC5050;
         display: inline-block;
-        font-size: 2.5em; }
+        font-size: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em; }
+  #speakers .speakers {
+    width: 100%;
+    display: table;
+    height: 200px; }
+    @media only screen and (max-width: 768px) {
+      #speakers .speakers {
+        width: 100%;
+        height: auto;
+        display: block; } }
+    #speakers .speakers .speaker {
+      width: 33.3%;
+      display: table-cell;
+      background-size: cover !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      position: relative; }
+      @media only screen and (max-width: 768px) {
+        #speakers .speakers .speaker {
+          width: 100%;
+          display: block;
+          height: 200px; } }
+      #speakers .speakers .speaker .name, #speakers .speakers .speaker .title {
+        position: absolute;
+        line-height: 1;
+        padding: 10px 10px;
+        background: #14A7E3;
+        bottom: 10px; }
+      #speakers .speakers .speaker .name {
+        background: #FC5050;
+        bottom: 42px; }
+      #speakers .speakers .speaker .title {
+        font-size: 12px; }
+    #speakers .speakers .name1 {
+      background: url("../img/headshots/mh.jpg"); }
+    #speakers .speakers .name2 {
+      background: url("../img/headshots/sl.jpg"); }
+    #speakers .speakers .name3 {
+      background: url("../img/headshots/kh.jpg"); }
+    #speakers .speakers .name4 {
+      background: url("../img/headshots/ma.jpg"); }
+    #speakers .speakers .name5 {
+      background: url("../img/headshots/tr.jpg"); }
+    #speakers .speakers .name6 {
+      background: url("../img/headshots/sf.jpg"); }
+    #speakers .speakers .name7 {
+      background: url("../img/headshots/pb.jpg"); }
+    #speakers .speakers .name8 {
+      background: url("../img/headshots/fb.jpg"); }
+    #speakers .speakers .name9 {
+      background: url("../img/headshots/as.jpg"); }
+    #speakers .speakers .name10 {
+      background: url("../img/headshots/dl.jpg"); }
+    #speakers .speakers .name11 {
+      background: url("../img/headshots/cb.jpg"); }
 
 /*# sourceMappingURL=style.css.map */
