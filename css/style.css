@@ -13,6 +13,9 @@ a {
   text-decoration: none;
   color: inherit; }
 
+.container {
+  max-width: 1024px; }
+
 #splash {
   background: #002D47;
   background-image: url('../img/splashBack.png');
@@ -31,7 +34,7 @@ a {
   #splash .splashBlock {
     margin-top: 80px;
     position: relative;
-    padding-bottom: 20px; }
+    padding-bottom: 60px; }
     #splash .splashBlock .tagline {
       position: relative;
       text-transform: uppercase; }
@@ -56,14 +59,16 @@ a {
       font-size: 72px;
       color: #FC5050;
       line-height: 1.2; }
+      #splash .splashBlock .title h1 span {
+        color: #14A7E3; }
     #splash .splashBlock .signup {
       margin-top: 20px; }
       #splash .splashBlock .signup a {
-        color: #333;
-        padding: 10px 20px;
+        color: #fff;
+        padding: 20px 40px;
         text-transform: uppercase;
         text-decoration: none;
-        background: #fff; }
+        border: 2px solid #fff; }
     #splash .splashBlock .date {
       text-align: right;
       position: relative;
@@ -77,9 +82,8 @@ a {
       position: relative;
       top: -60px; }
       #splash .splashBlock .sponsorships a {
-        color: #000;
-        background: #FFF300;
-        padding: 5px 10px; }
+        color: #FFF300;
+        text-decoration: underline; }
   #splash .splashBlock:after {
     content: "";
     display: block;
@@ -89,5 +93,5 @@ a {
     background-repeat: no-repeat;
     height: 200px;
     width: 200px;
-    bottom: -120px;
+    bottom: -80px;
     right: 0px; }

@@ -1,7 +1,7 @@
 $blue:#002D47;
 $pink:#FC5050;
 $yellow:#FFF300;
-$lightBlue:#0072A1;
+$lightBlue:#14A7E3;
 $white:#f3f3f3;
 $grey:#333;
 
@@ -22,6 +22,9 @@ a{
 	text-decoration: none;
 	color:inherit;
 }
+.container{
+	max-width: 1024px;
+}
 #splash{
 	background: $blue;
 	background-image: url('../img/splashBack.png'); /* fallback */
@@ -39,7 +42,7 @@ a{
 	.splashBlock{
 		margin-top: 80px;
 		position:relative;
-		padding-bottom: 20px;
+		padding-bottom: 60px;
 		.tagline{
 			position:relative;
 			text-transform: uppercase;
@@ -69,16 +72,19 @@ a{
 				font-size: 72px;
 				color:$pink;
 				line-height: 1.2;
+				span{
+					color:$lightBlue;
+				}
 			}
 		}
 		.signup{
 			margin-top: 20px;
 			a{
-				color:#333;
-				padding:10px 20px;
+				color:#fff;
+				padding:20px 40px;
 				text-transform: uppercase;
 				text-decoration: none;
-				background:#fff;
+				border:2px solid #fff;
 			}
 		}
 		.date{
@@ -97,9 +103,8 @@ a{
 			top:-60px;
 
 			a{
-				color:#000;
-				background:$yellow;
-				padding:5px 10px;
+				color:$yellow;
+				text-decoration: underline;
 			}
 		}
 	}
@@ -112,7 +117,7 @@ a{
 		background-repeat: no-repeat;
 		height:200px;
 		width:200px;
-		bottom:-120px;
+		bottom:-80px;
 		right:0px;
 	}
 }
