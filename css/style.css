@@ -1,1 +1,31 @@
-body,html{font-family:Lato;font-weight:300;line-height:1.5}h1,h2,h3,h4,h5,h6{font-family:Montserrat;font-weight:300;line-height:1}#splash{background:url('img/splashBack.png') linear-gradient(#195D85, #002D47) #002D47;background:url('../img/splashBack.png') #002D47;background-size:cover;min-height:600px}
+body, html {
+  font-family: Lato;
+  font-weight: 300;
+  line-height: 1.5; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: 1; }
+
+.section-title {
+  text-align: center;
+  margin: 10px 0px; }
+
+#splash {
+  background: url("img/splashBack.png") linear-gradient(#195D85, #002D47) #002D47;
+  background: url("../img/splashBack.png") #002D47;
+  background-size: cover;
+  min-height: 600px; }
+
+#about {
+  padding: 30px 0; }
+  #about .section-title {
+    color: #C33F54; }
+  #about .content {
+    font-size: 18px;
+    width: 600px;
+    text-align: center;
+    margin: auto; }
+
+/*# sourceMappingURL=style.css.map */
