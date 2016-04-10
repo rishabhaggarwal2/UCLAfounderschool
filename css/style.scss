@@ -43,11 +43,17 @@ a{
 		margin-top: 80px;
 		position:relative;
 		padding-bottom: 60px;
+		@media only screen and (max-width: 768px) {
+		    padding-bottom: 100px;
+		}
 		.tagline{
 			position:relative;
 			text-transform: uppercase;
 			h4{
 				font-size: 28px;
+				@media only screen and (max-width: 768px) {
+				    font-size: 16px;
+				}
 			}
 			span{
 				color:#000;
@@ -66,12 +72,16 @@ a{
 			width:60px;
 			top:-20px;
 			left:-20px;
+
 		}
 		.title{
 			h1{
 				font-size: 72px;
 				color:$pink;
 				line-height: 1.2;
+				@media only screen and (max-width: 768px) {
+				    font-size: 54px;
+				}
 				span{
 					color:$lightBlue;
 				}
@@ -85,6 +95,9 @@ a{
 				text-transform: uppercase;
 				text-decoration: none;
 				border:2px solid #fff;
+				@media only screen and (max-width: 768px) {
+				    padding:15px 30px;
+				}
 			}
 		}
 		.date{
@@ -93,15 +106,24 @@ a{
 			top:-60px;
 			text-transform: uppercase;
 			letter-spacing: 1.71px;
+			@media only screen and (max-width: 768px) {
+			    top:0px;
+			}
 			h4{
 				font-size: 28px;
 				text-decoration: underline;
+				line-height: 1.5;
+				@media only screen and (max-width: 768px) {
+				    font-size: 16px;
+				}
 			}
 		}
 		.sponsorships{
 			position:relative;
 			top:-60px;
-
+			@media only screen and (max-width: 768px) {
+			    top:0px;
+			}
 			a{
 				color:$yellow;
 				text-decoration: underline;
@@ -117,7 +139,7 @@ a{
 		background-repeat: no-repeat;
 		height:200px;
 		width:200px;
-		bottom:-80px;
+		bottom:-120px;
 		right:0px;
 	}
 }

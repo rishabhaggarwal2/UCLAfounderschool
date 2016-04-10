@@ -35,11 +35,17 @@ a {
     margin-top: 80px;
     position: relative;
     padding-bottom: 60px; }
+    @media only screen and (max-width: 768px) {
+      #splash .splashBlock {
+        padding-bottom: 100px; } }
     #splash .splashBlock .tagline {
       position: relative;
       text-transform: uppercase; }
       #splash .splashBlock .tagline h4 {
         font-size: 28px; }
+        @media only screen and (max-width: 768px) {
+          #splash .splashBlock .tagline h4 {
+            font-size: 16px; } }
       #splash .splashBlock .tagline span {
         color: #000;
         background: #FFF300;
@@ -59,6 +65,9 @@ a {
       font-size: 72px;
       color: #FC5050;
       line-height: 1.2; }
+      @media only screen and (max-width: 768px) {
+        #splash .splashBlock .title h1 {
+          font-size: 54px; } }
       #splash .splashBlock .title h1 span {
         color: #14A7E3; }
     #splash .splashBlock .signup {
@@ -69,18 +78,31 @@ a {
         text-transform: uppercase;
         text-decoration: none;
         border: 2px solid #fff; }
+        @media only screen and (max-width: 768px) {
+          #splash .splashBlock .signup a {
+            padding: 15px 30px; } }
     #splash .splashBlock .date {
       text-align: right;
       position: relative;
       top: -60px;
       text-transform: uppercase;
       letter-spacing: 1.71px; }
+      @media only screen and (max-width: 768px) {
+        #splash .splashBlock .date {
+          top: 0px; } }
       #splash .splashBlock .date h4 {
         font-size: 28px;
-        text-decoration: underline; }
+        text-decoration: underline;
+        line-height: 1.5; }
+        @media only screen and (max-width: 768px) {
+          #splash .splashBlock .date h4 {
+            font-size: 16px; } }
     #splash .splashBlock .sponsorships {
       position: relative;
       top: -60px; }
+      @media only screen and (max-width: 768px) {
+        #splash .splashBlock .sponsorships {
+          top: 0px; } }
       #splash .splashBlock .sponsorships a {
         color: #FFF300;
         text-decoration: underline; }
@@ -93,5 +115,5 @@ a {
     background-repeat: no-repeat;
     height: 200px;
     width: 200px;
-    bottom: -80px;
+    bottom: -120px;
     right: 0px; }
