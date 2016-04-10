@@ -364,17 +364,17 @@ a {
   transform: rotate(-2deg);
   -webkit-transform: rotate(-2deg); }
 
-#schedule:after {
-  content: "";
-  display: block;
-  width: 110%;
-  height: 80px;
-  position: absolute;
-  bottom: -40px;
-  background: #002D47;
-  transform: rotate(-2deg);
-  -webkit-transform: rotate(2deg); }
-
+/*#schedule:after{
+	content:"";
+	display:block;
+	width:110%;
+	height:80px;
+	position:absolute;
+	bottom:-40px;
+	background:$blue;
+	transform: rotate(-2deg);
+	-webkit-transform: rotate(2deg);
+}*/
 #schedule {
   padding: 40px 0;
   position: relative;

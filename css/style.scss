@@ -449,7 +449,7 @@ a{
 	transform: rotate(-2deg);
 	-webkit-transform: rotate(-2deg);
 }
-#schedule:after{
+/*#schedule:after{
 	content:"";
 	display:block;
 	width:110%;
@@ -459,7 +459,7 @@ a{
 	background:$blue;
 	transform: rotate(-2deg);
 	-webkit-transform: rotate(2deg);
-}
+}*/
 #schedule {
 	padding: 40px 0;
 	position:relative;
