@@ -68,10 +68,8 @@ a {
       @media only screen and (max-width: 768px) {
         #splash .splashBlock .title h1 {
           font-size: 54px; } }
-      #splash .splashBlock .title h1 span {
-        color: #14A7E3; }
     #splash .splashBlock .signup {
-      margin-top: 20px; }
+      margin-top: 40px; }
       #splash .splashBlock .signup a {
         color: #fff;
         padding: 20px 40px;
@@ -99,7 +97,7 @@ a {
             font-size: 16px; } }
     #splash .splashBlock .sponsorships {
       position: relative;
-      top: -60px; }
+      top: -100px; }
       @media only screen and (max-width: 768px) {
         #splash .splashBlock .sponsorships {
           top: 0px; } }
