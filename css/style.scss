@@ -182,17 +182,34 @@ a{
 
 	.keynote{
 		height:300px;
+		width:100%;
 		display:table;
+		@media only screen and (max-width: 768px) {
+		    width:100%;
+		    display:block;
+		    height:auto;
+		    padding-bottom: 40px;
+		}
 		.keynoteImg{
 			display:table-cell;
 			width:60%;
-			background:url('../img/dude.png');
+			@media only screen and (max-width: 768px) {
+			    width:100%;
+			    display:block;
+			    height:200px;
+			}
+			background:url('../img/headshots/dude.png') center;
 			background-size:contain;
+			background-repeat: no-repeat;
 		}
 		.keynoteDesc{
 			text-align: center;
 			display:table-cell;
 			width:40%;
+			@media only screen and (max-width: 768px) {
+			    width:100%;
+			    display:block;
+			}
 			vertical-align: middle;
 			h4{
 				text-transform: uppercase;
@@ -210,9 +227,86 @@ a{
 				padding:10px 20px;
 				background:$pink;
 				display:inline-block;
-				font-size: 2.5em;
+				font-size: 2em;
+				padding-top: 1em;	
+				padding-bottom: 1em;	
+				padding-left: 1em;
+				padding-right: 1em;
 			}
 		}
+	}
+	.speakers{
+		width:100%;
+		display:table;
+		height:200px;
+		@media only screen and (max-width: 768px) {
+		    width:100%;
+		    height:auto;
+		    display:block;
+		}
+		.speaker{
+			width:33.3%;
+			@media only screen and (max-width: 768px) {
+			    width:100%;
+			    display:block;
+			    height:200px;
+			}
+			display:table-cell;
+			background-size:cover !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			position:relative;
+
+			.name, .title{
+				position:absolute;
+				line-height: 1;
+				padding:10px 10px;
+				background:$lightBlue;
+				bottom:10px
+			}
+			.name{
+				background:$pink;
+				bottom:42px;
+			}
+			.title{
+				font-size: 12px;
+			}
+		}
+
+		.name1{
+			background:url('../img/headshots/mh.jpg');
+		}
+		.name2{
+			background:url('../img/headshots/sl.jpg');
+		}
+		.name3{
+			background:url('../img/headshots/kh.jpg');
+		}
+		.name4{
+			background:url('../img/headshots/ma.jpg');
+		}
+		.name5{
+			background:url('../img/headshots/tr.jpg');
+		}
+		.name6{
+			background:url('../img/headshots/sf.jpg');
+		}
+		.name7{
+			background:url('../img/headshots/pb.jpg');
+		}
+		.name8{
+			background:url('../img/headshots/fb.jpg');
+		}
+		.name9{
+			background:url('../img/headshots/as.jpg');
+		}
+		.name10{
+			background:url('../img/headshots/dl.jpg');
+		}
+		.name11{
+			background:url('../img/headshots/cb.jpg');
+		}
+
 	}
 
 }
