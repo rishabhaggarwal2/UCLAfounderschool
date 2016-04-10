@@ -1,1 +1,93 @@
-body,html{font-family:Lato;font-weight:300;line-height:1.5}h1,h2,h3,h4,h5,h6{font-family:Montserrat;font-weight:300;line-height:1}#splash{background:url('img/splashBack.png') linear-gradient(#195D85, #002D47) #002D47;background:url('../img/splashBack.png') #002D47;background-size:cover;min-height:600px}
+body, html {
+  font-family: Lato;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 18px; }
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: 1; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+#splash {
+  background: #002D47;
+  background-image: url('../img/splashBack.png');
+  /* fallback */
+  background-image: url('../img/splashBack.png'), linear-gradient(#195D85, #002D47);
+  /* W3C */
+  background-image: url('../img/splashBack.png'), -webkit-linear-gradient(#195D85, #002D47);
+  /* W3C */
+  background-size: cover;
+  color: #fff;
+  overflow: hidden; }
+  #splash nav {
+    display: block;
+    width: 100%;
+    height: 60px; }
+  #splash .splashBlock {
+    margin-top: 80px;
+    position: relative;
+    padding-bottom: 20px; }
+    #splash .splashBlock .tagline {
+      position: relative;
+      text-transform: uppercase; }
+      #splash .splashBlock .tagline h4 {
+        font-size: 28px; }
+      #splash .splashBlock .tagline span {
+        color: #000;
+        background: #FFF300;
+        padding: 10px; }
+    #splash .splashBlock .tagline:before {
+      content: "";
+      display: block;
+      position: absolute;
+      background: url('../img/RoundedPNG.png') center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 60px;
+      width: 60px;
+      top: -20px;
+      left: -20px; }
+    #splash .splashBlock .title h1 {
+      font-size: 72px;
+      color: #FC5050;
+      line-height: 1.2; }
+    #splash .splashBlock .signup {
+      margin-top: 20px; }
+      #splash .splashBlock .signup a {
+        color: #333;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #fff; }
+    #splash .splashBlock .date {
+      text-align: right;
+      position: relative;
+      top: -60px;
+      text-transform: uppercase;
+      letter-spacing: 1.71px; }
+      #splash .splashBlock .date h4 {
+        font-size: 28px;
+        text-decoration: underline; }
+    #splash .splashBlock .sponsorships {
+      position: relative;
+      top: -60px; }
+      #splash .splashBlock .sponsorships a {
+        color: #000;
+        background: #FFF300;
+        padding: 5px 10px; }
+  #splash .splashBlock:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url('../img/RoundedPNG.png') center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    bottom: -120px;
+    right: 0px; }
