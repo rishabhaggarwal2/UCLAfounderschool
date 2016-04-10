@@ -344,3 +344,19 @@ a {
   position: relative;
   background: #002D47;
   color: #fff; }
+  #schedule table {
+    max-width: 500px;
+    margin: auto;
+    left: 60px;
+    position: relative; }
+    #schedule table tr td {
+      padding: 5px 20px; }
+    #schedule table tr td:first-child {
+      border-right: 2px solid #fff;
+      text-align: right;
+      position: relative; }
+    #schedule table tr td:first-child:after {
+      content: "--";
+      position: absolute;
+      right: -7px;
+      font-weight: 500; }
