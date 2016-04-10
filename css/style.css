@@ -45,7 +45,10 @@ a {
       font-size: 15px; }
       #splash nav ol li {
         display: inline;
-        padding: 2px 12px; }
+        padding: 5px 12px; }
+        @media only screen and (max-width: 768px) {
+          #splash nav ol li {
+            padding: 5px 6px; } }
       #splash nav ol a {
         dislay: block; }
       #splash nav ol a:hover {
@@ -421,5 +424,11 @@ footer {
     text-align: center; }
   footer .social-media a {
     margin: 0 13px; }
+    @media only screen and (max-width: 768px) {
+      footer .social-media a {
+        margin: 0 5px; } }
+  @media only screen and (max-width: 768px) {
+    footer {
+      height: 160px; } }
 
 /*# sourceMappingURL=style.css.map */

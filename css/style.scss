@@ -57,7 +57,11 @@ a{
 
 			li {
 				display: inline;
-				padding: 2px 12px;	
+				padding: 5px 12px;	
+
+				@media only screen and (max-width: 768px) {
+				    padding: 5px 6px;
+				}
 			}
 
 			a {
@@ -526,5 +530,14 @@ footer {
 
 	.social-media a{
 		margin: 0 13px;
+
+		@media only screen and (max-width: 768px) {
+	       margin: 0 5px;
+	    }
 	}
+
+	@media only screen and (max-width: 768px) {
+	    height: 160px;
+	}
+
 }
