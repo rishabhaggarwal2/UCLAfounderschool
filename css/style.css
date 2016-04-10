@@ -285,3 +285,35 @@ a {
       background: url('../img/headshots/dl.jpg'); }
     #speakers .speakers .name11 {
       background: url('../img/headshots/cb.jpg'); }
+
+.sponsorHeading {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 20px;
+  position: relative;
+  display: none; }
+
+.sponsorHeading:before {
+  content: "";
+  width: 44%;
+  position: absolute;
+  border-top: 1px solid #ccc;
+  height: 10px;
+  top: 8px;
+  left: 0; }
+  @media only screen and (max-width: 768px) {
+    .sponsorHeading:before {
+      width: 30%; } }
+
+.sponsorHeading:after {
+  content: "";
+  width: 44%;
+  position: absolute;
+  border-top: 1px solid #ccc;
+  height: 10px;
+  top: 8px;
+  right: 0; }
+  @media only screen and (max-width: 768px) {
+    .sponsorHeading:after {
+      width: 30%; } }
