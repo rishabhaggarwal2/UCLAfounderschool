@@ -286,12 +286,9 @@ a {
     #speakers .speakers .name11 {
       background: url('../img/headshots/cb.jpg'); }
 
-<<<<<<< HEAD
 #sponsors h1 {
   color: #14A7E3; }
 
-/*# sourceMappingURL=style.css.map */
-=======
 .sponsorHeading {
   font-weight: 400;
   text-transform: uppercase;
@@ -323,4 +320,3 @@ a {
   @media only screen and (max-width: 768px) {
     .sponsorHeading:after {
       width: 30%; } }
->>>>>>> 251510b35066c1f7c5038339cceff22645d5a9dc
