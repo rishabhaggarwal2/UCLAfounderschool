@@ -45,7 +45,8 @@ a {
       font-size: 15px; }
       @media only screen and (max-width: 768px) {
         #splash nav ol {
-          float: left; } }
+          float: left;
+          left: -40px; } }
       #splash nav ol li {
         display: inline;
         padding: 5px 12px; }
